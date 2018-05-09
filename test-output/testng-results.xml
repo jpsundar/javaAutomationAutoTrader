@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29509" started-at="2018-05-09T07:48:42Z" finished-at="2018-05-09T07:49:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29509" started-at="2018-05-09T07:48:42Z" finished-at="2018-05-09T07:49:11Z">
+      <class name="testPackage.TestClass">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:testPackage.TestClass@224edc67]" name="testInit" is-config="true" duration-ms="282" started-at="2018-05-09T19:48:42Z" finished-at="2018-05-09T19:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="setUpTest(java.lang.reflect.Method)[pri:0, instance:testPackage.TestClass@224edc67]" name="setUpTest" is-config="true" duration-ms="9990" started-at="2018-05-09T19:48:42Z" finished-at="2018-05-09T19:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPackage.TestClass.UserStory1() throws java.awt.HeadlessException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="UserStory1()[pri:0, instance:testPackage.TestClass@224edc67]" name="UserStory1" duration-ms="3273" started-at="2018-05-09T19:48:52Z" description="Test to validate price reminder when no price is entered" finished-at="2018-05-09T19:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory1 -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@224edc67]" name="tearDownTest" is-config="true" duration-ms="731" started-at="2018-05-09T19:48:55Z" finished-at="2018-05-09T19:48:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserStory1 status=SUCCESS method=TestClass.UserStory1()[pri:0, instance:testPackage.TestClass@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setUpTest(java.lang.reflect.Method)[pri:0, instance:testPackage.TestClass@224edc67]" name="setUpTest" is-config="true" duration-ms="10528" started-at="2018-05-09T19:48:56Z" finished-at="2018-05-09T19:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPackage.TestClass.UserStory2() throws java.awt.HeadlessException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="UserStory2()[pri:0, instance:testPackage.TestClass@224edc67]" name="UserStory2" duration-ms="3482" started-at="2018-05-09T19:49:06Z" description="Test to validate the EMI feature with different tenure and interest rate" finished-at="2018-05-09T19:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserStory2 -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@224edc67]" name="tearDownTest" is-config="true" duration-ms="752" started-at="2018-05-09T19:49:10Z" finished-at="2018-05-09T19:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserStory2 status=SUCCESS method=TestClass.UserStory2()[pri:0, instance:testPackage.TestClass@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:testPackage.TestClass@224edc67]" name="clearUp" is-config="true" duration-ms="447" started-at="2018-05-09T19:49:11Z" finished-at="2018-05-09T19:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+      </class> <!-- testPackage.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
